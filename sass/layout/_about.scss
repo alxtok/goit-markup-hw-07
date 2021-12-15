@@ -1,11 +1,11 @@
-.section-about {
+.about {
     padding-top: 0;
 }
-.about {
+.about__list {
     display: flex;
     margin-top: 50px;
 }
-.about-item {
+.about__item {
     position: relative;
     &:not(:last-child) {
         margin-right: 30px;
@@ -13,7 +13,7 @@
 }
 
 
-.about-item-text {
+.about__text {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;

@@ -1,14 +1,14 @@
-.filters {
+.portfolio__filter {
     margin-bottom: 50px;
     display: flex;
     justify-content:center;
 }
 
-.filter-item:not(:last-child) {
+.filter__item:not(:last-child) {
     margin-right: 8px;
 }
 
-.primary-button {
+.filter__primary-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -27,16 +27,16 @@
 }
 
 
-.portfolio {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    .item:nth-of-type(3n+1) {
+    .portfolio-list__item:nth-of-type(3n+1) {
         margin-left: 0px;
     }
-    .item:nth-of-type(3n) {
+    .portfolio-list__item:nth-of-type(3n) {
         margin-right: 0px;
     }
-    .item:nth-of-type(-n+3) {
+    .portfolio-list__item:nth-of-type(-n+3) {
         margin-top: 0px;
     }
 }
@@ -47,13 +47,13 @@
     background: var(--main-wite-color);
     border: 1px solid #EEEEEE;
 }
-.portfolio-item {
+.portfolio-list__item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 90px) / 3);
     } 
 
-.portfolio-link {
+.portfolio-list__link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover, &:focus {

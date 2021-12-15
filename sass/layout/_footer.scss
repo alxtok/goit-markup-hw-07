@@ -2,11 +2,11 @@ footer {
     background: var(--bgr-color);
     padding: 60px 0;
 }
-.footer-container {
+.footer__container-1 {
     display: flex;
     align-items: baseline;
 }
-.footer-logo {
+.footer__logo {
     font-family: Raleway;
     font-weight: bold;
     display: block;
@@ -16,7 +16,7 @@ footer {
     letter-spacing: 0.03em;
     margin-bottom: 20px;
 }
-.footer-contact {
+.footer__footer-contacts {
     .link{
         font-size: 14px;
         line-height: 1.71;
@@ -29,7 +29,7 @@ footer {
     }
 }
 
-.contact-adress {
+.footer-contacts__adress {
     flex-grow: 1;
     color: var(--main-wite-color);
     text-decoration: none;
@@ -41,10 +41,10 @@ footer {
     }
 
 
-.footer-contact-item:not(:first-child) {
+.footer-contact__item:not(:first-child) {
     margin-top: 9px;
 }
-.footer-follow {
+.footer__container-2 {
     margin-left: 70px;
 }
 .social-networks {
@@ -52,7 +52,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.footer-follow-title {
+.footer__title {
     color: var(--main-wite-color);
     margin-bottom: 20px;
     font-weight: bold;
@@ -62,7 +62,7 @@ footer {
     text-transform: uppercase;
 }
 
-.social-network-link {
+.social-networks__link {
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.1);
@@ -76,25 +76,25 @@ footer {
     }
 }
 
-.social-network + .social-network {
+.social-networks__item + .social-networks__item {
     margin-left: 10px;
 }
-.social-network-icon {
+.social-networks__icon {
     fill: var(--main-wite-color);
 }
 
-.form-follow-form {
+.follow-form {
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
-.form-follow {
+.footer__form-div {
     display: flex;
     justify-content:center;
     align-items: center;
 }
-.footer-form-input {
+.follow-form__input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -115,7 +115,7 @@ footer {
 }
 
 
-.footer-follow-btn {
+.follow-form__btn {
     color: var(--main-wite-color);
     background-color: var(--main-br-btn-color);
     font-weight: bold;
@@ -133,9 +133,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.footer-follow-sub {
+.footer__container-3 {
     margin-left: 93px;
 }
-.follow-sub-icon {
+.follow-form__icon {
     margin-left: 10px;
 }

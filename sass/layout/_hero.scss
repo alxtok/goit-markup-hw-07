@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 
-.hero-title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -19,7 +19,7 @@
     color:var(--main-wite-color);
 }
 
-.main-button{
+.hero__button{
     color: var(--main-wite-color);
     background-color: var(--main-br-btn-color);
     font-weight: 700;
