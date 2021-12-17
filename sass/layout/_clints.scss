@@ -1,11 +1,11 @@
-.clints__list {
+.clients {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
 
-.clints__copmpany {
+.clients__item {
     
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@
     }
 }
 
-.clints__copmpany-link {
+.clients__link {
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;

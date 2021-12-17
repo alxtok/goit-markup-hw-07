@@ -2,11 +2,11 @@ footer {
     background: var(--bgr-color);
     padding: 60px 0;
 }
-.footer__container-1 {
+.footer__container {
     display: flex;
     align-items: baseline;
 }
-.footer__logo {
+.footer-logo {
     font-family: Raleway;
     font-weight: bold;
     display: block;
@@ -16,8 +16,11 @@ footer {
     letter-spacing: 0.03em;
     margin-bottom: 20px;
 }
-.footer__footer-contacts {
-    .link{
+.footer-logo__web {
+    color: var(--accent-color);
+}
+.footer-contacts {
+    .footer-contacts__link{
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -41,10 +44,10 @@ footer {
     }
 
 
-.footer-contact__item:not(:first-child) {
+.footer-contacts__item:not(:first-child) {
     margin-top: 9px;
 }
-.footer__container-2 {
+.footer__follow {
     margin-left: 70px;
 }
 .social-networks {
@@ -133,7 +136,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.footer__container-3 {
+.footer__follow-sub {
     margin-left: 93px;
 }
 .follow-form__icon {
